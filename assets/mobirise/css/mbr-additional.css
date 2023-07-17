@@ -1152,9 +1152,23 @@ a {
   }
 }
 .cid-tdpNJyBseW .mbr-text {
-  color: #bbbbbb;
+  color: #ffffff;
   text-align: center;
 }
 .cid-tdpNJyBseW .mbr-iconfont {
   color: black;
+}
+.cid-tKeeadI5q5 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #000000;
+}
+.cid-tKeeadI5q5 .line {
+  background-color: #000000;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-tKeeadI5q5 .mbr-text {
+  color: #101010;
 }
