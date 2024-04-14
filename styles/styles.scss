@@ -2,7 +2,7 @@
     font-family: Montserrat;
     src: url('../font/montserrat/Montserrat-Medium.ttf') format("truetype"),
         url('../font/montserrat/Montserrat-Bold.ttf') format("truetype"); 
-    font-weight: medium bold;
+    font-weight: 500 700;
 }
 
 body {
@@ -10,34 +10,42 @@ body {
     overflow-x: hidden;
 }
 
-iframe {
+.skibidi-spline {
+    margin-left: -10%;
     overflow: scroll;
 }
 
-.zenlogo {
+.spline {
     margin-left: -10%;
+    overflow: scroll;
 }
 
 .scroll-icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.scroll-icon.appear {
+    opacity: 1;
 }
 
 h1 {
     text-align: center;
     color: white;
     font-family: Montserrat;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20pt;
 }
 
-.specialize {
+p {
     color: #cffdff;
     text-align: center;
     font-size: 17pt;
     font-family: Montserrat;
-    font-family: medium;
+    font-family: 500;
 }
 
 .fade {
