@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/montserrat/Montserrat-VariableFont_wght.ttf");
+}
+body {
+  background-image: linear-gradient(#002c2e, black);
+  overflow-x: hidden;
+}
+
+.zenlogo {
+  margin-left: -10%;
+}
+
+.scroll-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+  font-size: 20pt;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade.appear {
+  opacity: 1;
+}
+
+p {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
