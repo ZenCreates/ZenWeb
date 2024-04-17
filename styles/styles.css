@@ -8,9 +8,43 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+.socials {
+  display: table;
+  margin: 0 auto;
+}
+
+.socials > * {
+  margin: 10px;
+}
+
+p {
+  color: #cffdff;
+  text-align: center;
+  font-size: 17pt;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade.appear {
+  opacity: 1;
+}
+
 .skibidi-spline {
   margin-left: -10%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .spline {
@@ -30,33 +64,7 @@ body {
   opacity: 1;
 }
 
-h1 {
-  text-align: center;
-  color: white;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 20pt;
+.logo {
+  width: 75px;
+  height: 75px;
 }
-
-p {
-  color: #cffdff;
-  text-align: center;
-  font-size: 17pt;
-  font-family: Montserrat;
-  font-family: 500;
-}
-
-.fade {
-  opacity: 0;
-  transition: opacity 250ms ease-in;
-}
-
-.fade.appear {
-  opacity: 1;
-}
-
-p {
-  color: white;
-}
-
-/*# sourceMappingURL=styles.css.map */
